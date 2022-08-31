@@ -1,22 +1,24 @@
 {
-    "name": "notes",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "dev": "next dev -H 0.0.0.0"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "@chakra-ui/icons": "^2.0.9",
-        "@chakra-ui/react": "^2.2.9",
-        "@emotion/react": "^11.10.0",
-        "@emotion/styled": "^11.10.0",
-        "framer-motion": "^7.2.1",
-        "next": "^12.2.5",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    }
+	"name": "notes",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev -H 0.0.0.0",
+		"build": "next build",
+		"start": "next start"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@chakra-ui/icons": "^2.0.9",
+		"@chakra-ui/react": "^2.2.9",
+		"@emotion/react": "^11.10.0",
+		"@emotion/styled": "^11.10.0",
+		"framer-motion": "^7.2.1",
+		"next": "^12.2.5",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
 }
